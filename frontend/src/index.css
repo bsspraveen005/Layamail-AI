@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@theme {
+  --font-sans: "Instrument Sans", system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque", "Instrument Sans", sans-serif;
+  --color-ink: #17263c;
+  --color-paper: #edf0f4;
+  --color-card: #fbfcfd;
+  --color-line: #d5dbe4;
+  --color-muted: #5d6b80;
+  --color-brand: #1d6a88;
+  --color-essential: #1f7a52;
+  --color-promo: #b7791f;
+  --color-other: #5d6b80;
+  --color-unwanted: #b3261e;
+  --color-review: #6b4fbb;
+}
+body { margin: 0; background: var(--color-paper); color: var(--color-ink); font-family: var(--font-sans); }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--color-brand); outline-offset: 2px; }
